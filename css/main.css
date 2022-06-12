@@ -1032,6 +1032,39 @@ footer p{
   font-size: 1.1rem;
 }
 
+/*About Page*/
+
+.about-page{
+  min-height: calc(100vh - 12rem);
+  background-color: var(--sectionBackground);
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+.about-container{
+  padding-top: 5rem;
+  width: 90vw;
+  margin: auto;
+  height: 100%;
+
+}
+
+.about-container h1{
+  text-align: center;
+}
+.about-container .border{
+  margin: auto;
+  
+}
+
+.about-container p{
+  margin: 3rem auto;
+  max-width: 60rem;
+  text-align: center;
+}
+
 
 
 
