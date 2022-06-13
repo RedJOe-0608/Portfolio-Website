@@ -950,7 +950,7 @@ background-color: var(--sectionBackground);
   display: flex;
   align-items: center;
   
-  height: 5rem;
+  /* height: 5rem; */
   line-height: 2.5rem;
   color: var(--paraColor);
 }
@@ -1079,7 +1079,54 @@ footer p{
   color: var(--headingColor);
 }
 
+/*Projects page*/
 
+.projects{
+
+      min-height: calc(100vh - 5rem);
+  
+      background: linear-gradient(348deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../img/project-background.jpg') no-repeat center center / cover;
+  
+}
+
+.projects h1{
+    padding-top: 7rem;
+      text-align: center;
+      color: #fffffe;
+      margin-bottom: 0.5rem;
+}
+
+.projects .border{
+margin: auto;
+}
+
+.projects h5{
+  text-align: center;
+}
+
+.projects .tag{
+  background-color: var(--sectionBackground);
+  min-width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.projects .details{
+  display: block;
+}
+
+.projects .tag p{
+  margin-bottom: 0rem;
+
+}
+
+
+
+.projects .tags{
+  justify-content: space-evenly;
+}
 
 
 
