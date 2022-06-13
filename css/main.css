@@ -1089,6 +1089,10 @@ footer p{
   
 }
 
+.animated {
+  animation: forwards;
+}
+
 .projects h1{
     padding-top: 7rem;
       text-align: center;
