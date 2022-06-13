@@ -272,8 +272,12 @@ background-color: #d8eefe;
     border-radius: 0.5rem;
     border: 2px solid var(--headingColor);
     background-color: var(--btnBackground);
-    color: var(--btnText);
+    
     transition: var(--transition);
+}
+
+.hire-btn a{
+color: var(--btnText);
 }
 
 .hire-btn:hover{
