@@ -8,6 +8,8 @@
      <link rel="stylesheet" href="./css/normalize.css">
      <!--main.css-->
      <link rel="stylesheet" href="./css/main.css">
+    <!--AOS library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>|| Articles ||</title>
 </head>
 <body>
@@ -46,7 +48,7 @@
     <div class="articles">
         <h1>Articles</h1>
         <div class="border"></div>
-        <div class="articles-container">
+        <div class="articles-container" data-aos="fade-right" data-aos-once="true" data-aos-delay="3000">
 
             <article class="article" data-id="article1">
                 <div class="article-img">
@@ -120,5 +122,12 @@
 
     <script src="./script.js"></script>
    <script src="https://kit.fontawesome.com/0c631058bf.js" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+        });
+    </script>
 </body>
 </html>
