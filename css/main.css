@@ -589,6 +589,11 @@ color: var(--btnText);
   background-color: var(--bgColor);
   
   margin-bottom: 5rem;
+  
+}
+
+svg{
+  display: block;
 }
 
 .about-section{
@@ -662,7 +667,9 @@ color: var(--btnText);
 .services{
   /* min-height: 50rem; */
   background-color: var(--sectionBackground);
+  position: relative;
 }
+
 
 .services-section{
   width: 90vw;
@@ -672,6 +679,30 @@ color: var(--btnText);
   align-items: center;
   flex-direction: column;
 }
+
+/*cURVY SHAPE css*/
+.custom-shape-divider-top-1655195123 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1655195123 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 106px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655195123 .shape-fill {
+  fill: #FFFFFE;
+}
+
+/*End of curvy shape CSS*/
 
 .services-section h1{
   margin-top: 5rem;
@@ -742,6 +773,37 @@ color: var(--btnText);
 .service:hover .border{
   background-color: #fffffe;
 }
+.custom-shape-divider-bottom-1655196247 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1655196540 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1655196540 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1655196540 .shape-fill {
+  fill: #fffffe;
+}
 
 @media screen and (max-width: 970px){
  
@@ -760,13 +822,15 @@ color: var(--btnText);
   width: 90vw;
   margin: auto;
   height: 40rem;
+  position: relative;
  
 }
 
 
+
 .latest-works-container h1{
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .latest-works-container .border{
   margin: auto;
@@ -983,9 +1047,30 @@ clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
 /*Skills section*/
 
 .skills{
-  margin-top: 6rem ;
+  margin-top: 2rem ;
   min-height: 50rem;
 background-color: var(--sectionBackground);
+position: relative;
+}
+.custom-shape-divider-top-1655197591 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1655197591 svg {
+  position: relative;
+  display: block;
+  width: calc(293% + 1.3px);
+  height: 141px;
+}
+
+.custom-shape-divider-top-1655197591 .shape-fill {
+  fill: #FFFFFE;
 }
 
 .skills-section{
@@ -995,7 +1080,7 @@ background-color: var(--sectionBackground);
 
 .skills-section h1{
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 
 .skills-section .border{
