@@ -4,6 +4,9 @@ const closeBtn = document.querySelector('.close-btn');
 const articles = document.querySelectorAll('.article');
 const documentation = document.querySelectorAll('#documentation');
 
+
+
+
 navToggle.addEventListener('click', () =>{
 sideBar.classList.toggle('sideBarToggle');
 })

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Serif:400|Spectral:400');
 @import url('https://fonts.googleapis.com/css?family=Oregano:400');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 html {font-size: 100%;
 } /*16px*/
@@ -49,6 +50,9 @@ body {
 p {
   margin-bottom: 1rem;
   color: var(--paraColor);
+}
+a{
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -178,11 +182,15 @@ nav{
 .side-bar-link{
   margin-bottom: 1rem;
   text-align: center;
-  transition: var(--transition);
-
+  
 }
 
-.side-bar-link:hover{
+.side-bar-link a{
+  transition: var(--transition);
+  color: var(--headingColor);
+}
+
+.side-bar-link a:hover{
   color: var(--btnBackground);
   cursor: pointer;
 }
@@ -644,6 +652,11 @@ svg{
     color: var(--btnText);
     border: 2px solid var(--headingColor);
     transition: var(--transition);
+
+}
+.about-btn a{
+
+  color: var(--btnText);
 }
 
 .about-btn:hover{
