@@ -66,7 +66,7 @@ body {
 
 .show {
     position: relative;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
 }
 
 .show::after {
@@ -174,7 +174,7 @@ p {
     margin-top: 2rem;
     opacity: 0;
     transform: translateY(3rem);
-    animation: fadeInUp 2s ease 9s forwards;
+    animation: fadeInUp 2s ease 9.5s forwards;
 }
 
 
