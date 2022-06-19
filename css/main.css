@@ -197,6 +197,7 @@ nav{
 
 .side-bar-social-icons{
   margin-top: 2.5rem;
+  display: flex;
 }
 .side-bar-social-icon{
   font-size: 1.5rem;
@@ -484,14 +485,23 @@ color: var(--btnText);
     flex-direction: column;
   }
   .article{
-    width: 24rem;
-    min-width: 25rem;
+    width: 85%;
   }
   .article-img{
     width: 100%;
   }
 }
 
+@media screen and (max-width:410px) {
+  .article-details h5{
+    min-height: 4.87rem;
+    display: flex;
+    align-items: center;
+  }
+  .article{
+    height: 23rem;
+  }
+}
 /*articles CSS*/
 
 .section-container{
@@ -1308,6 +1318,9 @@ animation: fadeIn 1.5s ease forwards 1.5s;
 
 .projects h5{
   text-align: center;
+  min-height: 2.87rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects .tag{
